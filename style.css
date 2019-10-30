@@ -62,7 +62,7 @@ a {
 }
 
 .p-intro {
-  margin: 5px 10px 40px;
+  margin: 5px 10px 10px;
 }
 
 .card {
@@ -81,11 +81,18 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
 .img-small {
   width: 100px;
   margin: 15px;
+  border: solid rgba(200, 200, 200, .7);
+}
+
+.img-profile {
+  width: 125px;
+  border: solid #26AAE1;
 }
 
 .list-social {
@@ -110,6 +117,7 @@ a:hover {
   margin: 15px 5px;
 
 }
+
 
 .btn-grey:hover {
   background-color: rgb(200, 200, 200);
